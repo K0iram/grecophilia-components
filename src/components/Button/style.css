@@ -1,0 +1,22 @@
+.small {
+  height: 20px;
+}
+
+.medium {
+  height: 30px;
+}
+
+.large {
+  height: 40px;
+}
+
+.primary {
+  background-color: blue;
+  color: #333;
+}
+
+.secondary {
+  background-color: grey;
+  color: blue;
+}
+
