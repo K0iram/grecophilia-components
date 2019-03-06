@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 import './style.css'
 
@@ -21,6 +22,12 @@ class Card extends Component {
       </div>
     )
   }
+}
+
+Card.propTypes = {
+  imgSrc: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired
 }
 
 export default Card
